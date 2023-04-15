@@ -8,6 +8,7 @@ const myParam = urlParams.get('name');
 const output = document.getElementById("ten");
 const output2 = document.getElementById("ten2");
 
+if (output == null) myParam= "";
 output.innerHTML = myParam;
 output2.innerHTML = myParam;
 
