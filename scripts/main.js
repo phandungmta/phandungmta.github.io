@@ -1,6 +1,16 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
 $(document).ready(function () {
+    const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('name');
+
+// Gắn biến vào nội dung thẻ p
+const output = document.getElementById("ten");
+const output2 = document.getElementById("ten2");
+
+output.innerHTML = myParam;
+output2.innerHTML = myParam;
+
     $("#map-image").on("click")
     {
 
@@ -40,6 +50,8 @@ $(document).ready(function () {
         });
     })
 })
+
+
 
 // Smooth scroll for links with hashes
 $("a.smooth-scroll").click(function (event) {
