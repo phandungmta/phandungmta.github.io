@@ -9777,9 +9777,9 @@ body {
 .ww-home-page {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/RAK_7947.JPG") no-repeat center center;
     background-size: cover;
-    background-position: 50%;
-    height: 200vh;
-    min-height: 1300px;
+    /* background-position: 50%; */
+    height: 100vh;
+    /* min-height: 300px; */
     
 }
 
