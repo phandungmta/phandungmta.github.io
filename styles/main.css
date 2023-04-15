@@ -9753,6 +9753,25 @@ a.text-dark:hover, a.text-dark:focus {
 body {
     font-family: "Dosis", sans-serif;
 }
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+  .name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1 rem;
+    text-align: center;
+   
+  }
+  .address {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+   
+  }
 
 /* Home Page Style */
 .ww-home-page {
@@ -9761,6 +9780,15 @@ body {
     background-position: 50%;
     height: 100vh;
     min-height: 480px;
+    
+}
+
+.ww-invite {
+    background:  url("../images/thiepcuoi.JPG") no-repeat center center;
+    background-size: cover;
+    /* background-position: 50%; */
+    /* height: 100vh; */
+    min-height: 800px;
 }
 
 .ww-home-page .ww-wedding-announcement {
@@ -9862,6 +9890,7 @@ body {
 
 /* Wedding Event Style */
 .ww-wedding-event ul {
+    background-color: rgba(245, 138, 119, 0.2);
     list-style: none;
     padding-left: 0;
 }
@@ -10032,6 +10061,7 @@ body {
 
 .ww-section {
     padding: 100px 0;
+    
 }
 
 .btn-primary {
